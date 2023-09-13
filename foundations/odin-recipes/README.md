@@ -1,0 +1,2 @@
+# odin-recipes
+This project was the initial assignment of The Odin Project's 'Foundations' course, involving the creation of a very basic recipe website. The purpose was to assess students' early HTML and CSS skills. The project encompassed crafting a simple homepage and individual recipe pages using HTML for structure, and applying CSS for styling. This introductory project aimed to provide hands-on experience in web development fundamentals.

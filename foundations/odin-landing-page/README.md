@@ -1,0 +1,2 @@
+# odin-landing-page
+This project is a part of The Odin Project's 'Foundations' course and involves creating a landing page from a provided template, testing HTML and CSS skills by building a page from scratch. The objective is to apply fundamental web development techniques, customize the template, and enhance proficiency in HTML and CSS coding while constructing a complete webpage.

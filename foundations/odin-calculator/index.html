@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="header">Calculator</div>
+    <div id="sub-header">Accepts only 2 inputs at a time, for now. Number's size don't matter.</div>
+    <div id="calculator-border">
+        <div id="display">
+            <div id="operand-2"></div>
+            <div id="operator"></div>
+            <div id="operand-1">0</div>
+            <div id="result"></div>
+        </div>
+        <div id="buttons">
+            <div id="numbers">
+                <button class="number-button" data-input="1">1</button>
+                <button class="number-button" data-input="2">2</button>
+                <button class="number-button" data-input="3">3</button>
+                <button class="number-button" data-input="4">4</button>
+                <button class="number-button" data-input="5">5</button>
+                <button class="number-button" data-input="6">6</button>
+                <button class="number-button" data-input="7">7</button>
+                <button class="number-button" data-input="8">8</button>
+                <button class="number-button" data-input="9">9</button>
+                <button class="number-button" data-input="0">0</button>
+            </div>
+            <div id="operators">
+                <button class="operator-button" data-input="+">+</button>
+                <button class="operator-button" data-input="-">-</button>
+                <button class="operator-button" data-input="x">x</button>
+                <button class="operator-button" data-input="/">/</button>
+                <button id="equals">=</button>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

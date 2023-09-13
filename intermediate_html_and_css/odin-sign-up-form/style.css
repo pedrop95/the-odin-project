@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(assets/Norse-Bold.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    display: flex;
+    margin: 0px;
+    background-color: #f9fafb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 75%;
+}
+
+#header {
+    display: flex;
+    font-family: Norse-Bold;
+    color: white;
+    font-size: 70px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    margin-top: 30%;
+}
+
+img {
+    height: 140px;
+    width: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    letter-spacing: -1px;
+    margin: 0px;
+    width: 100%;
+}
+
+#intro{
+    padding: 40px;
+}
+
+#form-section{
+    background: white;
+    box-shadow: 10px 5px 5px gray;
+    padding: 40px;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(58, 57, 57);
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 250px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+input:focus {
+    outline: 1px solid #1a73e8;
+    box-shadow: 5px 3px 3px gray;
+}
+
+#enter {
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 60px;
+    font-size: 20px;
+    margin: 40px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+#have {
+    padding: 40px;
+    font-size: 20px;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+}
+
+.error-box {
+    outline: 1px solid red;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}

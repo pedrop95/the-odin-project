@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(31, 30, 30);
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    width: fit-content;
+}
+
+.header{
+    color: gold;
+    font-weight: bold;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.description{
+    text-align: center;
+}
+
+.ingredients li{
+    color: green;
+}
+
+.list, .description{
+    margin: 10px 80px;
+}
+
+.menu, .image, .header{
+    margin: 10px auto;
+}

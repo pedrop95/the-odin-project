@@ -1,0 +1,52 @@
+/* Estilos gerais para a página */
+body {
+    margin-top: 70px; /* Margem entre o topo e o container */
+    margin-bottom: 70px; /* Margem entre o bottom e o container */
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: #c2c28f; /* Cor de fundo creme */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para o container que envolve o botão e o display */
+.container {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #c2c28f; /* Cor de fundo creme */
+    gap: 70px; /* Espaçamento entre botão e display */
+}
+
+/* Estilos para o botão */
+#change-grid {
+    padding: 15px;
+    background-color: #8a9a5b; /* Cor de fundo verde musgo */
+    border: 2px solid #8a9a5b; /* Borda sólida da mesma cor que o fundo */
+    border-radius: 10px; /* Borda arredondada */
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    color: white; /* Texto branco */
+}
+
+/* Estilos para o display */
+#display {
+    background-color: white;
+    border: 1px solid green;
+}
+
+/* Estilos para o grid de quadrados */
+.canvas {
+    height: 768px;
+    width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Estilos para os quadrados */
+.square, .painted {
+    flex-shrink: 0;
+    border: 0;
+    margin: 0;
+}

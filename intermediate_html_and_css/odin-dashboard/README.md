@@ -1,0 +1,2 @@
+# odin-dashboard
+This project is part of The Odin Project's Intermediate CSS and HTML curriculum and aims to create a sample dashboard page to test grid layout skills. It also serves as an opportunity to learn the Tailwind CSS framework and its features, as well as implement functionalities using JavaScript. Through this project, students can apply and enhance their HTML, CSS, and JavaScript knowledge while gaining hands-on experience in building interactive web interfaces and utilizing the time-saving capabilities of Tailwind CSS.

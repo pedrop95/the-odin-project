@@ -1,0 +1,70 @@
+/* Styling for the body element */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191a1b;
+    margin: 0;
+    min-height: 100vh;
+    gap: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+/* Styling for images */
+img {
+    height: auto;
+    width: 100px;
+}
+
+/* Styling for buttons */
+.button {
+    height: 100px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    font-size: 24px;
+    background-color: #54575a;
+    border-radius: 15px;
+    border: solid #54575a;
+    justify-content: center;
+    color: black;
+}
+
+/* Styling for the score box */
+.score-box {
+    display: flex;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Styling for the buttons box */
+.buttons-box {
+    display: flex;
+    gap: 30px;
+}
+
+/* Styling for name and score sections */
+.names, .scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 6px;
+    gap: 5px;
+}
+
+/* Styling for the names section */
+.names {
+    width: 200px;
+}
+
+/* Styling for the scores section */
+.scores {
+    width: 30px;
+}

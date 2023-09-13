@@ -1,0 +1,3 @@
+# odin-etch-a-sketch
+
+This project is part of The Odin Project's "Foundations" course and aims to create a webpage featuring an Etch-a-Sketch model. The project serves as an opportunity for students to apply HTML, CSS,JavaScript and DOM manipulation skills learned so far, while also encouraging independent research to implement new functionalities. By building an interactive interface for drawing and erasing, students reinforce their knowledge and problem-solving abilities, gaining practical experience in web development and preparing them for more advanced challenges ahead.
