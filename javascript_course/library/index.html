@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="./output.css">
+    <style>
+        input[type="number"] {
+        -moz-appearance: textfield;
+        }
+    </style>
+    <script src="main.js" defer></script>
+</head>
+<body class="font-pixel text-white bg-cover" style="background-image: url(./assets/background.png);">
+    <div class="w-screen h-screen">
+        <header class="w-full grid grid-rows-1 grid-cols-[auto,max-content] pt-5">
+            <div class="justify-self-center text-5xl">Your Library</div>
+            <div class="text-2xl mr-3"><a href="https://github.com/pedrop95">github</a></div>
+        </header>
+        <div class="flex flex-wrap gap-8 items-center h-full">
+            <div class="p-5 mt-3 ml-3"><p class="text-2xl mb-4">Add a book</p>
+                <div><form class="grid grid-rows-5 grid-cols-[max-content,max-content] gap-5" action="" method="post">
+                    <label for="title">Title</label>
+                    <input class="rounded-full text-black px-3" type="text" name="title" id="title" placeholder="The Hobbit">
+                    <label for="author">Author</label>
+                    <input class="rounded-full text-black px-3" type="text" name="author" id="author" placeholder="J.R.R. Tolkien">
+                    <label for="pages"># of pages</label>
+                    <input class="rounded-full text-black px-3" type="number" name="pages" id="pages" placeholder="310">
+                    <label for="already">Already read</label>
+                    <input class="mr-auto" type="radio" name="read" id="already" value="true">
+                    <label for="not-read">Not yet</label>
+                    <input class="mr-auto" type="radio" name="read" id="not-read" value="false">
+                    <button class="bg-customgreen rounded-full" type="reset">Reset</button>
+                    <button class="bg-customgreen mr-auto px-8 py-2 rounded-full" type="submit">Submit</button>
+                </form></div>
+            </div>
+            <div class="p-5 mt-3 ml-3"><p class="text-2xl mb-4">Shelf</p>
+                    <div class="flex flex-wrap gap-4" id="shelf">
+                        <div id="book"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

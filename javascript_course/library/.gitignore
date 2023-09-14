@@ -1,0 +1,7 @@
+# Remove Tailwind files
+/node_modules/
+output.css
+package-lock.json
+package.json
+tailwind.config.js
+styles.css
